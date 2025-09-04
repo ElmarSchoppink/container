@@ -34,4 +34,4 @@ jobs:
       - name: Build and push Docker image
         run: |
           docker build -t elmarschoppink/container:latest .
-          docker push elmarschoppink/container:lates
+          docker push elmarschoppink/container:latest
